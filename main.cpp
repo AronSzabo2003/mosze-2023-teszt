@@ -24,4 +24,5 @@ int main()
     std::cout << "Atlag: " << atlag << std::endl;
     delete[] b; //dinamikus memoria hiba
     return 0;
+    std::cout << "Program vege" << std::endl;
 }
