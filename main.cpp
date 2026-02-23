@@ -10,18 +10,18 @@ int main()
     {
         b[i] = (i + 1) 2;
     }
-    for (int i = 0; i < N_ELEMENTS; i++) //hibás feltétel
+    for (int i = 0; i < N_ELEMENTS; i++) 
     {
-        std::cout << "Ertek: " << b[i] << std::endl; //hianyzo cout
+        std::cout << "Ertek: " << b[i] << std::endl; 
     }
     std::cout << "Atlag szamitasa: " << std::endl;
-    int atlag = 0; //atlag nincs inicializalva
-    for (int i = 0; i < N_ELEMENTS; i++) //pontos helyett sima vesszo
+    int atlag = 0;
+    for (int i = 0; i < N_ELEMENTS; i++) 
     {
-        atlag += b[i]; //hianyzo pontosvesszo
+        atlag += b[i]; 
     }
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
-    delete[] b; //dinamikus memoria hiba
+    delete[] b; 
     return 0;
 }
